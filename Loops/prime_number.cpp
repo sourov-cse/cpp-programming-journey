@@ -5,10 +5,14 @@ using namespace std;
 int main ()
 {
     int n; 
-    int prime;
+    int prime, count=0 ;
     cout << "Enter the number: ";
     cin>> n;
-    for()
+    for(int i=1; i<=n; i++){
+        if(n%i == 0)
+            count++;
+    }
+    cout << (count == 2 ? "Prime number" : "Not prime")  << "\n"; // condition ? TRUE : FALSE;
 
     return 0;
 }

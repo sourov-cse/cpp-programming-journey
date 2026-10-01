@@ -18,6 +18,6 @@ int main()
     */
    // (age >= 18) ? cout << "Valid Votar \n" :cout << "Not a valid votar \n";
 
-    cout << ((age >= 18) ? "Valid voter\n" : "Not a valid voter ") ;
+    cout << ((age >= 18) ? "Valid voter\n" : "Not a valid voter ") ; // condition ? TRUE : FALSE;
     return 0;
 }
