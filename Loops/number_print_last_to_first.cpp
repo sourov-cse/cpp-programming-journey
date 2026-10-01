@@ -3,16 +3,15 @@ using namespace std;
 
 int main()
 {
-    int n;
+    int n, lastDigit ;
     cout << "Enter number: ";
     cin >> n;
 
-    // start
-    int i=1;
-    while (i<=n){
-        cout << "Hello! Sourov\n";
-        // step
-        i++;
+    while (n>0) {
+        lastDigit = n % 10;
+        cout << lastDigit <<"\n";
+        n /= 10; // n= n/10
+        
     }
     return 0;
 }
