@@ -21,7 +21,7 @@ int main (){
     obj1.display();
 
     Form obj2 ("Milon", 23);
-    obj1.display();
+    obj2.display();
 
     return 0;
 }
