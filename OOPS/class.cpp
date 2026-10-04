@@ -12,12 +12,12 @@ class Form{
 // Bluprint
 class Form{
     public: // access modifier
-    string name; // data members
+    string name; // data members || properties || attributer
     int age;
 };
 
 //Object
-int main (){
+int main (){       // member function || behaviour
     Form obj1;
     obj1.name ="Sourov";
     obj1.age = 21;
