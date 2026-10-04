@@ -12,7 +12,7 @@ class Form{
 // Bluprint
 class Form{
     public: // access modifier
-    string name;
+    string name; // data members
     int age;
 };
 
